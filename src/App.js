@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="counterContainer">
       <h2 className="heading">
-        Omi's Counter App
+        Omi's First React App
       </h2>
       <div className="countValue">Count: {count}</div>
       <button onClick={() => setCount(count + 1)}>Increment</button>
